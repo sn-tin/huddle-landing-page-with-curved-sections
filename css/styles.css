@@ -179,6 +179,10 @@ input {
     margin-bottom: 10px;
 }
 
+.footer-btn {
+    margin-left: 165px;
+}
+
 .footer-logo {
     filter: brightness(1000%) saturate(0) contrast(1000%) invert(0);
     max-width: 60%;
@@ -218,6 +222,10 @@ input {
     } 
 
     /* Navbar */
+    
+    .navbar {
+        padding: 30px;
+    }
 
     .button-nav {
         font-size: 0.9rem;
@@ -227,6 +235,12 @@ input {
 
     .title-page p {
         padding: 0 33%;
+    }
+    
+    /* Statistics */
+
+    .stats-heading {
+        font-size: 5rem;
     }
 
     /* Features */
@@ -254,13 +268,16 @@ input {
     /* Footer */
 
     .footer-content {
-        padding: 30px 100px 0;
+        padding: 100px;
         text-align: left;
     }
 
     input {
         width: 40%;
-        margin-right: 20px;
+    }
+    
+    .footer-btn {
+        margin-left: 20px;
     }
 
     .feature-logo {
