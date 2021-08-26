@@ -223,6 +223,10 @@ input {
     } 
 
     /* Navbar */
+    
+    .navbar {
+        padding: 30px;
+    }
 
     .navbar {
         padding: 30px;
@@ -236,6 +240,12 @@ input {
 
     .title-page p {
         padding: 0 33%;
+    }
+    
+    /* Statistics */
+
+    .stats-heading {
+        font-size: 5rem;
     }
 
     /* Statistics */
@@ -278,7 +288,7 @@ input {
     }
 
     .footer-btn {
-        min-width: 20%;
+        max-width: 20%;
         transform: translateX(15%);
         padding: 10px 20px;
     }
