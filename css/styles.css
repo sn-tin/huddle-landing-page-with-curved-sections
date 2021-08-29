@@ -66,7 +66,7 @@ p {
     padding: 10px 40px;
 }
 
-.title-button:hover {
+.title-button:hover, .footer-btn:hover {
     background-color: hsl(321, 100%, 78%);
     color: hsl(0, 0%, 100%);
 }
@@ -168,20 +168,19 @@ footer p {
     padding: 0 30px;
 }
 
-.form-email {
-    display: inline-block;
-}
-
-input {
-    border: 0;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
 .footer-btn {
-    max-width: 50%;
-    transform: translateX(100%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: hsl(322, 100%, 66%);
+    padding: 8px 30px;
+    float: right;
+}
+
+
+.subscribe {
+    margin-bottom: 30px;
 }
 
 .footer-logo {
@@ -283,14 +282,8 @@ input {
         text-align: left;
     }
 
-    input {
-        width: 40%;
-    }
-
     .footer-btn {
-        max-width: 20%;
-        transform: translateX(15%);
-        padding: 10px 20px;
+        float: none;
     }
 
     .feature-logo {
